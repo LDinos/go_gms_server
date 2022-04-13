@@ -1,0 +1,12 @@
+package main
+
+type Buffermsg uint8
+
+const (
+	NET_GET_TESTMSG = uint8(iota)
+	NET_GET_REQUESTNUM
+	NET_SEND_REQUESTED_NUM
+	NET_SEND_KICK
+	NET_GET_MSG
+	NET_BROADCAST_MSG
+)
